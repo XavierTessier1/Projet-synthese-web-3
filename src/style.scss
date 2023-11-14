@@ -1,0 +1,53 @@
+html {
+	--largeur : 1000px;
+	height: 100%;
+	font-size: 16px;
+	font-family: arial;
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+#interface {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	& > header, & > footer {
+		padding: .5em 1em;
+		background-color: rgb(12, 57, 180);
+		justify-content: space-between;
+	}
+	& > header {
+		order: -1000;
+		h1 {
+			margin: 0;
+		}
+	}
+	& > footer {
+		order: 1000;
+		font-size: smaller;
+	}
+}
+
+div.milieu {
+	margin: 0px auto;
+	width: var(--largeur);
+	gap: 20px;
+	padding: 10px 0px;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+@import "produits";
+@import "header";
+@import "navigationPrimaire";
+@import "navigationSecondaire";
+@import "recherche";
+@import "raffinement";
+@import "footer";
+@import "backdrop";
+@import "description";
+@import "imagesBackdrop";
+
+

@@ -1,0 +1,17 @@
+#interface > header {
+    display: flex;
+    height: 100px;
+    div.conteneur {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: auto auto 1fr;
+        width: var(--largeur);
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: white;
+    }
+
+}

@@ -1,0 +1,25 @@
+#backdrop {
+    position: fixed;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    background-color: #fff8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    article {
+        display: flex;
+        gap: 50px;
+        background-color: white;
+        padding: 2em;
+        border-radius: .5em;
+        border: 1px solid black;
+    }
+
+    .description {
+        background-color: white;
+        height: 480px;
+    }
+}

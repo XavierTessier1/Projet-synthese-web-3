@@ -1,0 +1,28 @@
+.images {
+
+    > img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+        border: 1px solid black;
+    }
+
+    #changementImages {
+        width: 500px;
+        margin: auto;
+        display: flex;
+        gap: 15px;
+
+        .petiteImage {
+            
+            img {
+                object-fit: cover;
+                object-position: center;
+                border: 1px solid black;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}

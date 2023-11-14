@@ -1,0 +1,34 @@
+#interface > footer {
+    padding: 1.5em;
+    > ul {
+        width: var(--largeur);
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+
+    }
+    ul {
+        padding: 0;
+        // width: var(--largeur);
+    
+        p {
+            margin: 0;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            color: white;
+            font-weight: 600;
+        }
+    
+        li {
+            list-style-type: none;
+            line-height: 1.5em;
+            a {
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

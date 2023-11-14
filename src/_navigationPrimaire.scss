@@ -1,0 +1,27 @@
+nav.primaire {
+    background-color: rgb(9, 35, 105);
+    ul {
+        width: calc(20px + var(--largeur));
+        margin: 0 auto;
+        display: flex;
+        padding: 0px;
+        
+        
+        
+        li {
+            list-style-type: none;
+            
+            a {
+                display: flex;
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+
+                &:hover {
+                    color: rgb(255, 230, 0);
+                }
+            }
+        }
+    }
+}
